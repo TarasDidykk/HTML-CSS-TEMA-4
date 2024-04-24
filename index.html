@@ -1,0 +1,129 @@
+<html>
+
+<head>
+<style>
+header{
+height:150px;
+background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 5%, rgba(111,75,82,1) 51%, rgba(71,46,91,1) 89%);
+}
+footer{
+height:150px;
+background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 5%, rgba(111,75,82,1) 51%, rgba(71,46,91,1) 89%);
+}
+body{
+background-color:black;
+color:white;
+font-size:16px;
+}
+.buttons {
+  margin-top: 20px;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 0 10px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #007bff;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+.container {
+  max-width: 100%;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.headings-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.headings-table th,
+.headings-table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.headings-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+th{
+color:black;
+font-size:20px;
+}
+.example {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.example-box {
+  width: 200px;
+  height: 100px;
+  background-color: #007bff;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  font-size: 18px;
+}
+@media (max-width: 600px) {
+  .container {
+    max-width: 90%;
+	
+  }
+  img{
+  width:100%;
+  }
+  .button {
+    display: block;
+    margin: 10px auto;
+  }
+}
+</style>
+</head>
+<body>
+<div class="container">
+<header>
+<br>
+<h1 align ="center" >Тема 4. Розміщення зображень</h1>
+</header>
+ <div class="buttons">
+      <a href="index.html" class="button">Теорія</a>
+      <a href="task.html" class="button">Завдання</a>
+    </div>
+<div class="content">
+	<h2 align ="center"> Розмістити зображення у свій сайт можна двома способами:</h2>
+	<p align ="center"> 1.Вставити зображення безпосередньо у свій сайт за допомогою одинарного тегу </p>
+
+
+
+<img src ="img1.png">
+	<p align ="center"> В атрибут src можна використовувати посилиння на картинку в інтернеті( але це має певні нюанси(на уроці я розповідав)) </p>
+<p>2 . Розміщуємо зображення на фон усієї сторінки<br>Використовуємо атрибут(параметр) background-image.</p>
+<img src ="img2.png">
+
+
+<h2 align ="center">Розмір зображення на сторінці</h2>
+<p>За допомогою атрибутів width та height можна змінити розмір зображення</p>
+<img src ="img3.png">
+<h2 align ="center">Розміщення картинки на сторінці</h2>
+<p>Щоб розмістити картинку на сторінці по середині тег img потрібно помістити в тег р  i до тегу р дати атрибут align="center"</p>
+</div>
+ 
+<footer><br><h1>HTML&CSS</h1></footer>
+
+</div>
+</body>
+</html>
